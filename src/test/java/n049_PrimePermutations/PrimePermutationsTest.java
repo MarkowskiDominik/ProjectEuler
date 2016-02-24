@@ -1,6 +1,6 @@
 package n049_PrimePermutations;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -26,15 +26,26 @@ public class PrimePermutationsTest {
 	}
 
 	@Test
-	public void test() {
+	public void test1() {
 		//giving
-		List<Integer> expected1 = Arrays.asList(Integer.valueOf(1487), Integer.valueOf(4817), Integer.valueOf(8147));
-		List<Integer> expected2 = Arrays.asList(Integer.valueOf(2969), Integer.valueOf(6299), Integer.valueOf(9629));
+		List<Integer> expected = Arrays.asList(Integer.valueOf(1487), Integer.valueOf(4817), Integer.valueOf(8147));
 		
 		//when
-		List<Integer> actual = primePermutations.calculate();
+		List<Integer> actual = primePermutations.calculate(1000);
 		
 		//then
-		assertEquals(expected1, actual);
+		assertTrue(actual.containsAll(expected));
+	}
+	
+	@Test
+	public void test2() {
+		//giving
+		List<Integer> expected = Arrays.asList(Integer.valueOf(2969), Integer.valueOf(6299), Integer.valueOf(9629));
+		
+		//when
+		List<Integer> actual = primePermutations.calculate(1488);
+		
+		//then
+		assertTrue(actual.containsAll(expected));
 	}
 }
