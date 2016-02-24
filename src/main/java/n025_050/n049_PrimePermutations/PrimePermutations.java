@@ -1,4 +1,4 @@
-package n049_PrimePermutations;
+package n025_050.n049_PrimePermutations;
 
 import java.util.ArrayList;
 import java.util.List;

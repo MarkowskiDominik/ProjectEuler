@@ -1,4 +1,4 @@
-package n050_ConsecutivePrimeSum;
+package n025_050.n050_ConsecutivePrimeSum;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import n050_ConsecutivePrimeSum.ConsecutivePrimeSum;
+import n025_050.n050_ConsecutivePrimeSum.ConsecutivePrimeSum;
 
 public class ConsecutivePrimeSumTest {
 

@@ -1,4 +1,4 @@
-package n050_ConsecutivePrimeSum;
+package n025_050.n050_ConsecutivePrimeSum;
 
 import java.util.ArrayList;
 import java.util.List;

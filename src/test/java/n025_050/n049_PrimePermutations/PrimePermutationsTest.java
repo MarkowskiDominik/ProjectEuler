@@ -1,4 +1,4 @@
-package n049_PrimePermutations;
+package n025_050.n049_PrimePermutations;
 
 import static org.junit.Assert.*;
 
@@ -9,7 +9,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import n049_PrimePermutations.PrimePermutations;
+import n025_050.n049_PrimePermutations.PrimePermutations;
 
 public class PrimePermutationsTest {
 
